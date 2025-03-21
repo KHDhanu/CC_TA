@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build C++') {
             steps {
-                sh 'g++ hello.cpp -o output'
+                sh 'g+ hello.cpp -o output'
                 echo 'Build completed successfully'
             }
         }
